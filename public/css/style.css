@@ -43,7 +43,13 @@ body {
 }
 
 /*Bagian Sewa & Rental Mobil Terbaik */
-.hero .sewadanrental .sewadanrental-h2 {
+
+.hero {
+  position: relative;
+  min-height: 430px;
+}
+
+.hero h1 {
   width: 568px;
   height: 108px;
   left: 136px;
@@ -56,7 +62,7 @@ body {
   color: #000000;
 }
 
-.hero .sewadanrental .sewadanrental-p {
+.hero h6 {
   width: 468px;
   height: 60px;
   left: 136px;
@@ -69,29 +75,11 @@ body {
   color: #000000;
 }
 
-.hero .btn-mobil {
-  background: #5CB85F !important;
-  color: #FFF;
-}
-
 .hero-img img {
   position: absolute;
   right: 0;
-  bottom: 50;
+  bottom: 0;
 }
-
-/* @media only screen and (max-width: 768px) {
-  .sewadanrental .container .img-mobil {
-    max-height: 15em;
-    max-width: 20em;
-  }
-}
-
-.sewadanrental .container .img-mobil {
-  right: 0px;
-  width: 650px;
-  bottom: 14%;
-} */
 
 /* Search */
 .form-search {

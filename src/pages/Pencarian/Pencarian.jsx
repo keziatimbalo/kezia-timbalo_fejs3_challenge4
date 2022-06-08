@@ -18,9 +18,7 @@ export default function Search() {
     const handleData = async () => {
         setLoading(true);
         try {
-            const res = await axios(
-                "https://rent-cars-api.herokuapp.com/customer/car"
-            );
+            const res = await axios("https://rent-car-appx.herokuapp.com/admin/car");
             setDataList(res.data);
         } catch (error) {
             console.log(error);
